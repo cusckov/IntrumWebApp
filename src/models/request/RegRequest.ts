@@ -1,4 +1,4 @@
 export interface RegRequest {
-    userName: string;
-    password: string;
+    UserName: string;
+    Password: string;
 }
