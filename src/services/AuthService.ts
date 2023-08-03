@@ -11,12 +11,10 @@ export default class AuthService {
     }
 
     static async registration(request: RegRequest): Promise<AxiosResponse<RegResponse>> {
-        console.log(request);
-
         return $api.post<RegResponse>(`/account/register`, request)
     }
 
     static async logout(): Promise<AxiosResponse<void>> {
-        return $api.post(`/account/logout`)
+        return $api.get(`/account/logout`)
     }
 }
