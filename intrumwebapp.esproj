@@ -14,6 +14,5 @@
   <ItemGroup>
     <Folder Include="src\store\" />
     <Folder Include="src\http\" />
-    <Folder Include="src\services\" />
   </ItemGroup>
 </Project>

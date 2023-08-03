@@ -1,0 +1,2 @@
+C:\repos\IntrumWebApp\obj\Debug\intrumwebapp.esproj.SuggestedBindingRedirects.cache
+C:\repos\IntrumWebApp\obj\Debug\intrumwebapp.esproj.CoreCompileInputs.cache

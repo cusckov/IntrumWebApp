@@ -71,7 +71,6 @@ export default class Store {
 
     async checkAuth() {
         this.setLoading(true);
-        console.log(this.isLoading);
         try {
             const response = await axios.get<AuthResponse>(`${API_URL}/account/refresh`, { withCredentials: true })
             console.log(response);
@@ -84,7 +83,6 @@ export default class Store {
             }
         } finally {
             this.setLoading(false);
-            console.log(this.isLoading);
         }
     }
 }
